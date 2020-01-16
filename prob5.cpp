@@ -1,3 +1,5 @@
+//PROBLEM 5 #ProjectEuler (smallest multiple)
+//this prog takes long time to execute large values
 #include<iostream>
 using namespace std;
 long long int smallestmult(long long int a);
