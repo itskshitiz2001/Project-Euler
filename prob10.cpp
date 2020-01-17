@@ -1,5 +1,5 @@
 //PROBLEM 10 #ProjectEuler (summation of primes)
-//this prog takes long time to execute large values
+//this prog takes long time to execute large values..
 #include<iostream>
 using namespace std;
 int long long primesummation(int long long);
