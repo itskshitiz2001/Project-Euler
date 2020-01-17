@@ -19,9 +19,9 @@ int largestpalindromeproduct(int a)
     j=pow(10,a)-1;
     for(r=j;r>=i;r--)
     {
-        for(c=j;c>=i;c--)
+        for(c=j;c>=i;c--)                          
         {
-            prod=r*c;
+            prod=r*c;                             // checking all occurences for the inputted digit numbers
             temp=prod;
             revprod=0;
             while(temp)
@@ -31,7 +31,7 @@ int largestpalindromeproduct(int a)
             }
             if(revprod==prod&&prod>max)
             {
-                max=prod;
+                max=prod;                         // checking largest palindrome product
             }
         }
     }
