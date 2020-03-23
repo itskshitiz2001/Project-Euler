@@ -1,4 +1,4 @@
-//PROBLEM 16 #ProjectEuler (Power digit sum)
+//PROBLEM 16 #ProjectEuler (Power digit sum).
 #include<iostream>
 #include<math.h>
 using namespace std;
